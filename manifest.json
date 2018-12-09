@@ -1,7 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "MSDNFix",
-    "version": "0.1",
+    "name": "MSDN Column Resizer",
+    "description":"Adds a Separator bar between columns on MSDN Pags that can be clicked to resize columns",
+    "version": "0.5",
     "content_scripts": [
         {
             "matches": [
