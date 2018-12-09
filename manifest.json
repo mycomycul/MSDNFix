@@ -1,15 +1,22 @@
 {
-    "manifest_version":2,
-    "name":"MSDNFix",
-    "version":"0.1",
-    "content_scripts":[
+    "manifest_version": 2,
+    "name": "MSDNFix",
+    "version": "0.1",
+    "content_scripts": [
         {
-            "matches":[
+            "matches": [
                 "https://docs.microsoft.com/*",
                 "http://docs.microsoft.com/*"
             ],
-            "js":["content.js"]
+            "js": [
+                "content.js"
+            ]
         }
-    ]
-
+    ],
+    "icons": {
+        "16": "MSDNFix16.png",
+        "32": "MSDNFix32.png",
+        "48": "MSDNFix48.png",
+        "128": "MSDNFix128.png"
+    }
 }
