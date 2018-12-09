@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "MSDN Column Resizer",
+    "name": "MSDN Column Resize",
     "description":"Adds a Separator bar between columns on MSDN Pags that can be clicked to resize columns",
     "version": "0.5",
     "content_scripts": [
